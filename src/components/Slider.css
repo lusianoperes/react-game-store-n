@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Inter';
+    src:url(/src/Fonts/Inter.ttf)
+}
+
+.slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 260px;
+    background: #00041F;
+}
+
+.text-slider{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Inter';
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: 0.8vw;
+    text-align: center;
+}

@@ -1,0 +1,9 @@
+.topbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(180deg, #071924 88.54%, #012723 100%);
+}

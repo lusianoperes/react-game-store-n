@@ -1,0 +1,20 @@
+@font-face{
+  font-family: 'Victor-Mono';
+  src:url(Fonts/VictorMono-Bold.ttf)
+}
+
+#root{
+  width: 100%;
+}
+
+/*
+html{
+ height: 100%;
+}*/
+
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, #071924 9.90%, #00DCA1 100%);
+}

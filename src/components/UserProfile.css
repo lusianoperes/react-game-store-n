@@ -1,0 +1,46 @@
+@font-face{
+    font-family: 'Victor-Mono';
+    src:url(/src/Fonts/VictorMono-Bold.ttf)
+}
+
+.container-perfil{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 20px;
+    gap: 5px;
+}
+
+.nombre-status{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    color: white;
+    font-family: 'Victor-Mono';
+    font-size: 0.6rem;
+    font-style: normal;
+    font-weight: 10px;
+    line-height: 100%; /* 20px */
+    margin-left: 10px;
+}
+
+.imagen-perfil img{
+    width: 30px;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 2.5vh;
+    border: 0.25vh solid #01C38D;
+    box-shadow: #03B384 0.1vh 0 1.5vh;
+}
+
+.carrito img{
+    width: 25px;
+    height: auto;
+    flex-shrink: 0;
+    filter: drop-shadow(0.1vh 0 0.5vh #03B384);
+}
+
+.carrito img:hover{
+    filter: drop-shadow(0.1vh 0 0.5vh #02815f);
+}

@@ -1,0 +1,84 @@
+@font-face{
+    font-family: 'Victor-Mono';
+    src:url(/src/Fonts/VictorMono-Bold.ttf)
+}
+
+.topsellers-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.texto_topsellers{
+    color: white;
+    font-family: 'Victor-Mono';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    text-shadow: #000000 0.1vh 0 1.5vh;
+    margin-bottom: 15px;
+}
+
+.container-juegos-topsellers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    margin: 0 auto;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gamebox{
+    color: #FFFFFF;
+    background-color: #191E29;
+    width: 250px;
+    min-width: 280px;
+    height: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    justify-content: space-between;
+    flex-grow: 0;
+    flex-shrink: 0;
+    box-shadow: 0 0 15px #000;
+    align-self: center;
+    justify-self: center;
+}
+
+.gamebox img{
+    width: 100%;
+    height: auto;
+    max-height: 80%;
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+    object-position: top;
+    flex-shrink: 0;
+    vertical-align: top;
+}
+
+.gamebox_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+}
+
+.gamebox_name{
+    font-family: 'Victor-Mono';
+    font-size: 1rem;
+    margin-left: 10px;
+}
+.gamebox_price{
+    font-family: 'Inter';
+    font-size: 1rem;
+    margin-right: 10px;
+}

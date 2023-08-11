@@ -1,0 +1,38 @@
+@font-face{
+    font-family: 'Victor-Mono';
+    src:url(/src/Fonts/VictorMono-Bold.ttf)
+}
+
+.navbar{
+    background-color: #203441;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+    height: 30px;
+}
+
+.navbar a{
+    color: white;
+    text-shadow: #03B384 1px 0 15px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    font-family: 'Victor-Mono';
+    text-decoration: none;
+}
+
+.navbar a.selected-nav{
+    color: #03B384;
+}
+
+.navbar a:hover{
+    color: rgb(191, 190, 190);
+}
+
+.navbar a.selected-nav:hover{
+    color: #048a66;
+}
