@@ -1,19 +1,27 @@
 //import { useState } from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
-import Header from './components/Header'
-import Slider from './components/Slider'
-import TopSellers from './components/TopSellers'
-import Footer from './components/Footer'
+import Inicio from './pages/Inicio'
+import Productos from './pages/Productos'
+import Balances from './pages/Balances'
+import Carrito from './pages/Carrito'
+import NotFound from './pages/NotFound'
 
 function App() {
   //const [count, setCount] = useState(0)
 
   return (
-    <div className='container-app'>  
-        <Header/>
-        <Slider/>
-        <TopSellers/>
-        <Footer/>
+    <div>  
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Inicio/>} />
+          <Route path='/Inicio' element={<Inicio/>} />
+          <Route path='/Productos' element={<Productos/>} />
+          <Route path='/Balances' element={<Balances/>} />
+          <Route path='/Carrito' element={<Carrito/>} />
+          <Route path='*' element={<NotFound/>} />
+        </Routes>
+      </BrowserRouter>
     </div>
   )
 }

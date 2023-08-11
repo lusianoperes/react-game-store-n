@@ -27,6 +27,7 @@
 
 .navbar a.selected-nav{
     color: #03B384;
+    pointer-events: none;
 }
 
 .navbar a:hover{

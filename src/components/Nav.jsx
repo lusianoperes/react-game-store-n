@@ -7,7 +7,7 @@ function Nav() {
     return (
       <>
         <div className='navbar'>
-        <a className='nav_inicio selected-nav' href="">Inicio</a><a className='nav_productos' href="">Productos</a><a className='nav_balance' href="">Balances</a>
+        <a className='nav_inicio selected-nav' href="/Inicio">Inicio</a><a className='nav_productos' href="/Productos">Productos</a><a className='nav_balance' href="/Balances">Balances</a>
         </div>
       </>
     )

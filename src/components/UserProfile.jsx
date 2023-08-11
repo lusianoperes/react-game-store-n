@@ -12,7 +12,7 @@ function UserProfile() {
                 <div className='status'>Administrador</div>
             </div>
             <div className='imagen-perfil'><img src="src/Images/default_pfp.jpg"/></div>
-            <a href='#' className='carrito'><img src="src/Images/carrito.png"/></a>
+            <a href='/Carrito' className='carrito'><img src="src/Images/carrito.png"/></a>
         </div>
       </>
     )
