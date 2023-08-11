@@ -6,7 +6,7 @@ function Logo() {
   
     return (
       <>
-        <a href='index.html' className='logo'>
+        <a href='/Inicio' className='logo'>
         game💀ver
         </a>
       </>
