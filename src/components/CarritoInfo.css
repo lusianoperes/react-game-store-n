@@ -190,6 +190,19 @@
     font-size: 2rem;
 }
 
+.boton-comprar-cero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Victor-Mono';
+    font-size: 1.5rem;
+    height: 40px;
+    text-shadow: 0px 0px 15px #000000;
+    border-radius: 0 0 10px 10px;
+    background-color: #047456;
+    color: rgb(255, 255, 255, 0.5);
+}
+
 .boton-comprar{
     display: flex;
     background-color: #03B384;
@@ -203,4 +216,35 @@
     text-shadow: 0px 0px 15px #000000;
     border-radius: 0 0 10px 10px;
     
+}
+
+.boton-comprar:hover{
+    background-color: #058966;
+}
+
+.noelements-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 1000px;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.noelements-container img{
+    width: 50px;
+    height: auto;
+}
+.texto-noelementos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Victor-Mono';
+    font-size: 1rem;
+    text-shadow: 0px 0px 15px #000000;
 }

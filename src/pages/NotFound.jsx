@@ -1,5 +1,6 @@
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import NotFoundContent from '../components/NotFoundContent'
 
 
 
@@ -9,7 +10,7 @@ function NotFound() {
     return (
       <div className='container-app'>  
         <Header/>
-        <h1>Notfound page</h1>
+        <NotFoundContent/>
         <Footer/>
       </div>
     )

@@ -1,0 +1,45 @@
+@font-face{
+    font-family: 'Victor-Mono';
+    src:url(/src/Fonts/VictorMono-Bold.ttf)
+}
+
+.notfound-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.error-msg{
+    font-size: 5rem;
+    font-family: 'Victor-Mono';
+    font-weight: 700;
+    text-shadow: #03B384 1px 0 15px;
+    color: white;
+}
+
+.nodisponible-msg{
+    font-size: 1rem;
+    font-family: 'Victor-Mono';
+    font-weight: 200;
+    text-shadow: #03B384 1px 0 15px;
+    color: white;
+}
+
+.return-button{
+    font-size: 2rem;
+    font-family: 'Victor-Mono';
+    font-weight: 200;
+    text-shadow: #03B384 1px 0 15px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #000;
+    background-color: #191E29;
+    opacity: 0.9;
+    margin-top: 20px;
+}
+
+.return-button:hover{
+    background-color: #2f384d;
+}
