@@ -9,9 +9,14 @@
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    margin-bottom: 20px;
+    place-content: center;
 }
 
 .error-msg{
+    display: flex;
+    justify-self: center;
+    align-self: center;
     font-size: 5rem;
     font-family: 'Victor-Mono';
     font-weight: 700;
