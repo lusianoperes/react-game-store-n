@@ -76,14 +76,24 @@
     
 }
 
+.tabla-venta{
+    width: calc(100vw - 40px);
+}
+
 .tablaventa{
     background-color: #191E29;
     border-radius: 10px;
     font-family: 'Victor-Mono';
     color: white;
-    width: 80%;
+    width: 100%;
+    margin-right: 0;
 }
 
+table{
+    overflow: auto;
+    table-layout: fixed;
+    width: 33.3%;
+}
 table td{
     height: 35px;
     padding-left: 10px;

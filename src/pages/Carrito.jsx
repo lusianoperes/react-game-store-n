@@ -1,6 +1,6 @@
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-
+import CarritoInfo from '../components/CarritoInfo'
 
 
 function Carrito() {
@@ -9,7 +9,7 @@ function Carrito() {
     return (
       <div className='container-app'>  
           <Header/>
-          <h1>Carrito</h1>
+          <CarritoInfo/>
           <Footer/>
       </div>
     )
