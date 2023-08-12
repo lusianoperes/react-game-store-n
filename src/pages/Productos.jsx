@@ -1,5 +1,6 @@
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import ProductsFilter from '../components/ProductsFilter'
 
 
 function Productos() {
@@ -8,7 +9,7 @@ function Productos() {
     return (
       <div className='container-app'>  
           <Header/>
-          <h1>Productos</h1>
+          <ProductsFilter/>
           <Footer/>
       </div>
     )
