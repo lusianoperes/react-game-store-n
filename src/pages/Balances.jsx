@@ -1,6 +1,6 @@
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-
+import BalanceInfo from '../components/BalanceInfo'
 
 function Balances() {
     //const [count, setCount] = useState(0)
@@ -8,7 +8,7 @@ function Balances() {
     return (
       <div className='container-app'>  
           <Header/>
-          <h1>Balances</h1>
+          <BalanceInfo/>
           <Footer/>
       </div>
     )

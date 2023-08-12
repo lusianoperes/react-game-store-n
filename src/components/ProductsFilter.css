@@ -17,8 +17,12 @@ a{
 .top-box{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: space-between;
     flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    gap: 20px;
 }
 
 .products-text{
@@ -31,26 +35,23 @@ a{
     line-height: 100%;
     text-shadow: #000000 0.1vh 0 1.5vh;
     margin-left: 20px;
-    margin-top: 20px;
-    justify-self: center;
-    align-self: center;
 }
 
-.filter-bar{
-    display: flex;
+.filter-bar{ 
+    display: flex; 
     flex-direction: row;
-    margin-left: auto;
-    margin-right: 20px;
-    margin-top: 20px;
+    margin-left: 20px;
     background-color: white;
     border-radius: 10px 10px 10px 10px;
     width: 350px;
     height: 35px;
+    margin-right: 50px;
 }
 
 .order-button{
     text-align: center;
     font-size: 0.75rem;
+    width: 25%;
     border-radius: 10px 10px 10px 10px;
     border: 0;
     flex-shrink: 0;
@@ -58,6 +59,7 @@ a{
 
 .search-bar{
     border: 0;
+    width: 62%;
     font-size: 0.75rem;
     padding-left: 10px;
     flex-shrink: 2;
@@ -68,8 +70,12 @@ a{
     border: 0;
     border-radius: 0 10px 10px 0;
     margin-left: auto;
-    width: 45px;
+    width: 13%;
     flex-shrink: 0;
+}
+
+.search-button:hover{
+    background-color: #08805e;
 }
 
 .lupa-image{
@@ -90,8 +96,8 @@ a{
 .product{
     color: #FFFFFF;
     background-color: #191E29;
-    width: 250px;
-    height: 200px;
+    width: 240px;
+    height: 190px;
     display: flex;
     flex-wrap: wrap;
     border-radius: 15px;

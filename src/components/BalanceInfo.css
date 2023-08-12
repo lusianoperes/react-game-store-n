@@ -1,0 +1,105 @@
+@font-face{
+    font-family: 'Victor-Mono';
+    src:url(/src/Fonts/VictorMono-Bold.ttf)
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ventas-text{
+    display: flex;
+    color: white;
+    font-family: 'Victor-Mono';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    text-shadow: #000000 0.1vh 0 1.5vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    align-self: self-start;
+}
+
+.cuadros-ventas{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 20px;
+    align-self: flex-end;
+    margin-right: 50px;
+    flex-wrap: wrap;
+    place-content: center;
+}
+
+.cuadro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #191E29;
+    width: 175px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    font-family: 'Victor-Mono';
+    color: white;
+}
+
+.ventas-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 90%;
+    gap: 40px;
+    align-self: self-start;
+    margin-left: 20px;
+}   
+
+.datos-venta{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.85rem;
+}
+
+.fecha-venta{
+    font-size: 0.85rem;
+    width:fit-content;
+    font-family: 'Victor-Mono';
+    color: #05AE81;
+    background-color: #191E29;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.tablaventa{
+    background-color: #191E29;
+    border-radius: 10px;
+    font-family: 'Victor-Mono';
+    color: white;
+    width: 80%;
+}
+
+table td{
+    height: 35px;
+    padding-left: 10px;
+}
+
+table tr{
+    width: 30%;
+}
+
+table tr:first-child{
+    color: #05AE81;
+    
+}
+
+table tr:last-child{
+    color: #05AE81;
+    
+}
+
