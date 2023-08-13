@@ -1,0 +1,197 @@
+@font-face{
+    font-family: 'Victor-Mono';
+    src:url(/src/Fonts/VictorMono-Bold.ttf)
+}
+
+.productinfo-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.producto-grande{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: #191E29;
+    height: 450px;
+    width: 590px;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-right: 10px;
+    margin-top: 40px;
+    overflow: visible;
+}
+
+.producto-grande img{ 
+    height: 265px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+    object-position: top left;
+    flex-shrink: 0;
+    vertical-align: top;
+}   
+
+.info-producto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: auto;
+    height: 100%;
+   
+}
+
+.product-price{
+    display: flex;
+    z-index: 1;
+    position: absolute;
+    top: 25px;
+    left: -25px;
+    background-color: #191E29;
+    font-family: 'Victor-Mono';
+    color: white;
+    font-size: 2.5rem;
+    text-shadow: #03B384 1px 0 15px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.product-name{
+    font-family: 'Victor-Mono';
+    color: white;
+    font-size: 1.4rem;
+    text-shadow: #03B384 1px 0 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.product-description{
+    font-family: 'Victor-Mono';
+    color: white;
+    font-size: 0.75rem;
+    text-shadow: #191E29 1px 0 15px;
+    padding-right: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.product-bottombar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-developer{
+    font-family: 'Victor-Mono';
+    color: white;
+    font-size: 0.75rem;
+    text-shadow: #191E29 1px 0 15px;
+    padding-right: 40px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+}
+
+.plus-sign{
+    font-family: 'Victor-Mono';
+    color: white;
+    font-size: 1rem;
+    text-shadow: #191E29 1px 0 15px;
+    font-weight: lighter;
+}
+
+.cart-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    gap: 5px;
+    border: 0;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.cart-button img{
+    width: 40px;
+    height: auto;
+    filter: drop-shadow(1px 0 5px #03B384);
+}
+
+.relacionados-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+}
+
+.relacionados-text{
+    overflow-wrap: break-word;
+    font-family: 'Victor-Mono';
+    color: white;
+    font-size: 1.5rem;
+    text-shadow: #191E29 1px 0 15px;
+    margin-bottom: 10px;
+}
+
+.caja-juegos-relacionados{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: center;
+    gap: 20px;
+    max-width: 500px;
+}
+
+.caja-juego{
+    background-color: #191E29;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.caja-juego img{
+    width: 100%;
+    height: 80%;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+    flex-shrink: 0;
+    object-position: top;
+    vertical-align: top;
+}
+
+.caja-juego-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.juego-name{
+    font-family: 'Victor-Mono';
+    color: white;
+    font-size: 0.8rem;
+    text-shadow: #191E29 1px 0 15px;
+}
+
+.juego-price{
+    font-family: 'Victor-Mono';
+    color: white;
+    font-size: 0.8rem;
+    text-shadow: #191E29 1px 0 15px;
+}

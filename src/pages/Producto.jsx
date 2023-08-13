@@ -1,8 +1,6 @@
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import ProductoInfo from '../components/PoductoInfo'
-
-
+import ProductoInfo from '../components/ProductoInfo'
 
 function Producto() {
     //const [count, setCount] = useState(0)
