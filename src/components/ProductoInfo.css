@@ -126,6 +126,10 @@
     filter: drop-shadow(1px 0 5px #03B384);
 }
 
+.cart-button:hover{
+    filter: drop-shadow(1px 0 5px #027254);
+}
+
 .relacionados-container{
     display: flex;
     flex-direction: column;

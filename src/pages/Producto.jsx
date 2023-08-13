@@ -8,7 +8,7 @@ function Producto() {
     return (
       <div className='container-app'>  
         <Header/>
-        <ProductoInfo/>
+        <ProductoInfo />
         <Footer/>
       </div>
     )

@@ -20,7 +20,7 @@ function App() {
           <Route path='/Productos' element={<Productos/>} />
           <Route path='/Balances' element={<Balances/>} />
           <Route path='/Carrito' element={<Carrito/>} />
-          <Route path='/Producto' element={<Producto/>} />
+          <Route path='/Producto/*' element={<Producto/>} />
           <Route path='*' element={<NotFound/>} />
         </Routes>
       </BrowserRouter>
