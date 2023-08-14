@@ -1,4 +1,5 @@
 //import { useState } from 'react'
+import { Link } from 'react-router-dom';
 import './ProductoInfo.css'
 import gamesData from '../games-data.json'
 import { useParams } from 'react-router-dom';
@@ -36,6 +37,7 @@ function ProductoInfo() {
                     <div className='relacionados-text'>Juegos relacionados</div>
                     <div className='caja-juegos-relacionados'>
                         {related_products.map(game => (
+                        <Link to={`/Producto/${game.id}`} key={game.id}>
                             <div className='caja-juego' key={game.id}>
                                 <img src={game.image} alt={game.name} />
                                 <div className='caja-juego-text'>
@@ -43,6 +45,7 @@ function ProductoInfo() {
                                     <div className='juego-price'>$ {game.gamePrice}</div>
                                 </div>
                             </div>
+                        </Link>
                         ))}
                     </div>
                 </div>
