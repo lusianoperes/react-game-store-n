@@ -6,7 +6,8 @@
         "description": "¡Descarga y compite en este rápido juego de carreras",
         "developer": "FacePunch",
         "gamePrice": 70,
-        "sales": 15
+        "sales": 15,
+        "releaseDate": "2017-09-25T08:12:37Z"
     },
     {
         "id": 2,
@@ -15,7 +16,8 @@
         "description": "Perseguidos por lugares enigmáticos y misteriosos",
         "developer": "Bethesda",
         "gamePrice": 69,
-        "sales": 20
+        "sales": 20,
+        "releaseDate": "2020-03-12T16:45:21Z"
     },
     {
         "id": 3,
@@ -24,7 +26,8 @@
         "description": "Defiende Ciudad Gótica con los héroes del murciélago",
         "developer": "Warner Bros Games",
         "gamePrice": 39,
-        "sales": 50
+        "sales": 50,
+        "releaseDate": "2019-07-06T11:30:59Z"
     },
     {
         "id": 4,
@@ -33,7 +36,8 @@
         "description": "Recrea épicos partidos y juega con tus futbolistas favoritos",
         "developer": "EA Sports",
         "gamePrice": 59,
-        "sales": 70
+        "sales": 70,
+        "releaseDate": "2016-11-29T19:22:10Z"
     },
     {
         "id": 5,
@@ -42,7 +46,8 @@
         "description": "Encarna la piel del agente especial Hitman y resuelve misiones peligrosas",
         "developer": "Sony Games",
         "gamePrice": 29,
-        "sales": 45
+        "sales": 45,
+        "releaseDate": "2018-05-18T14:55:42Z"
     },
     {
         "id": 6,
@@ -51,7 +56,8 @@
         "description": "Sé un hechicero y recorre la mágica era medieval",
         "developer": "CD Projekt",
         "gamePrice": 89,
-        "sales": 21
+        "sales": 21,
+        "releaseDate": "2021-01-07T06:37:26Z"
     },
     {
         "id": 7,
@@ -60,7 +66,8 @@
         "description": "Kratos ha vuelto y debe proteger a su hijo de los peligros de Asgard",
         "developer": "Santa Mónica",
         "gamePrice": 70,
-        "sales": 30
+        "sales": 30,
+        "releaseDate": "2015-12-03T22:18:53Z"
     },
     {
         "id": 8,
@@ -69,7 +76,8 @@
         "description": "Modern Warfare II trae un juego de última generación para los fanáticos con un manejo de armas completamente nuevo, una nueva armería y otras innovaciones gráficas y de juego que disparan la franquicia a nuevas alturas.",
         "developer": "Activision",
         "gamePrice": 69,
-        "sales": 5
+        "sales": 5,
+        "releaseDate": "2016-08-14T17:09:08Z"
     },
     {
         "id": 9,
@@ -78,7 +86,8 @@
         "description": "Resident Evil vuelve en su octavo capítulo con Ethan como protagonista para viajar a un tenebroso pueblo lleno de peligros",
         "developer": "Capcom",
         "gamePrice": 60,
-        "sales": 66
+        "sales": 66,
+        "releaseDate": "2022-02-09T13:51:33Z"
     },
     {
         "id": 10,
@@ -87,6 +96,7 @@
         "description": "Juega este juego es muy divertido y la verdad nose de que trata",
         "developer": "Fangango Corp",
         "gamePrice": 29,
-        "sales": 10
+        "sales": 10,
+        "releaseDate": "2017-04-28T09:03:17Z"
     }
 ]
