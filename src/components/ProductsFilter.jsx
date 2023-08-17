@@ -6,31 +6,34 @@ import gamesData from '../games-data.json'
 function ProductsFilter() {
 
     const [orderBy, setOrderBy] = useState("");
+    const [searchData, setSearchData] = useState('');
     const games = gamesData;
 
     const handleOrderChange = (event) => {
         setOrderBy(event.target.value);
     };
 
-    const filteredGames = games.slice().sort((a, b) => {
-        if (orderBy === "caros") {
-            return b.gamePrice - a.gamePrice;
-        } else if (orderBy === "baratos") {
-            return a.gamePrice - b.gamePrice;
-        } else if (orderBy === "nuevos") {
-            let fechaA = new Date(a.releaseDate);
-            let fechaB = new Date(b.releaseDate);
-            console.log(fechaA + fechaB)
-            return fechaB - fechaA;
-        } else if (orderBy === "antiguos") {
-            let fechaA = new Date(a.releaseDate);
-            let fechaB = new Date(b.releaseDate);
-            return fechaA - fechaB;
-        }
-        else {
-            return 0;
-        }
-    });
+    const handleSearchChange = (event) => {
+        setSearchData(event.target.value);
+    };
+
+    const filteredGames = games
+        .filter((game) =>
+            game.name.toLowerCase().includes(searchData.toLowerCase())
+        )
+        .sort((a, b) => {
+            if (orderBy === 'caros') {
+                return b.gamePrice - a.gamePrice;
+            } else if (orderBy === 'baratos') {
+                return a.gamePrice - b.gamePrice;
+            } else if (orderBy === 'nuevos') {
+                return new Date(b.releaseDate) - new Date(a.releaseDate);
+            } else if (orderBy === 'antiguos') {
+                return new Date(a.releaseDate) - new Date(b.releaseDate);
+            } else {
+                return 0;
+            }
+        });
 
     return (
         <>
@@ -45,7 +48,8 @@ function ProductsFilter() {
                             <option value="nuevos">Mas nuevos</option>
                             <option value="antiguos">Mas antiguos</option>
                         </select>
-                        <input className="search-bar" id="search" type="search" placeholder="Buscar" aria-label="Search"></input>
+                        <input className="search-bar" id="search" type="search" placeholder="Buscar" aria-label="Search" value={searchData}
+              onChange={handleSearchChange}></input>
                         <button className='search-button'><img className='lupa-image' src="src/Images/lupa.png" alt='lupa' /></button>
                     </div>
                 </div>
