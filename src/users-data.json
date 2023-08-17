@@ -1,0 +1,11 @@
+[
+    {
+        "userId": 1,
+        "username": "Leonardo Duca",
+        "password": "lol",
+        "admin": true,
+        "profileImage": "src/Images/default_pfp",
+        "purchased_games_id": [1,2],
+        "on_cart_games_id": [1,1]
+    }
+]

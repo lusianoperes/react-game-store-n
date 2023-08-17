@@ -3,7 +3,7 @@
         "id": 1,
         "image": "src/Images/Rocket_League.png",
         "name": "Rocket League",
-        "description": "¡Descarga y compite en este rápido juego de carreras",
+        "description": "¡Descarga y compite en este rápido juego de carreras!",
         "developer": "FacePunch",
         "gamePrice": 70,
         "sales": 15,

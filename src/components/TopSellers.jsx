@@ -7,7 +7,7 @@ import Producto from '../pages/Producto';
 function TopSellers() {
     //const [count, setCount] = useState(0)
     const getTopSalesGames = () => {
-        const sortedData = [...gamesData]; // Copia del arreglo original
+        const sortedData = [...gamesData]; // Copia del array original
         sortedData.sort((a, b) => b.sales - a.sales); // Ordena en función del campo de ventas
 
         return sortedData.slice(0, 4); // Devuelve los primeros 4 elementos ordenados
