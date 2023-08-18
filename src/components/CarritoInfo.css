@@ -91,13 +91,18 @@
 
 .descripcion-juego{
     display: flex;
+    flex-direction: row;
     color: white;
     font-family: 'Victor-Mono';
     font-size: 0.75rem;
     font-style: normal;
     font-weight: 600;
     line-height: 100%;
+    width: 500px;
     text-shadow: #000000 0.1vh 0 1.5vh;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .interaccion{
@@ -201,6 +206,7 @@
     border-radius: 0 0 10px 10px;
     background-color: #047456;
     color: rgb(255, 255, 255, 0.5);
+    pointer-events: none;
 }
 
 .boton-comprar{

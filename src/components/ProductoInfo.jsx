@@ -3,7 +3,10 @@ import { Link } from 'react-router-dom';
 import './ProductoInfo.css'
 import gamesData from '../games-data.json'
 import { useParams } from 'react-router-dom';
-import fifa from '../Images/fifa23.png'
+import { MyContext } from '../Contexto'
+import { useContext } from 'react'
+import usersData from '../users-data.json'
+
 
 function ProductoInfo() {
     //const [count, setCount] = useState(0)
@@ -13,8 +16,37 @@ function ProductoInfo() {
     const other_products = gamesData.filter(game => game.id !== id);
     const related_products = other_products.sort(function (a, b) { return Math.random() - 0.5; }).slice(0, 4); //depende del resultado de mathrandom - 0.5 intercambia el orden de dos elementos entre sí
 
-    console.log(product_game.image);
+    const { UserId, setUserId } = useContext(MyContext);
+    const { UsersData, setUsersData } = useContext(MyContext);
+    const user = usersData.find((user) => user.userId === UserId);
 
+
+    const AñadirJuegoAlCarrito = (id_del_juego) => {
+
+        let datosusu = UsersData;
+        const usuario = datosusu.find(usuario => usuario.userId === UserId);
+
+        if (usuario) {
+            const game = usuario.on_cart_games_id.find(game => game.game_id === id_del_juego);
+
+            if (game) {
+
+                game.quantity += 1;
+            } else {
+
+                const newGame = {
+                    game_id: id_del_juego,
+                    quantity: 1
+                };
+                usuario.on_cart_games_id.push(newGame);
+            }
+        }
+
+        setUsersData(datosusu);
+        console.log(UsersData);
+        alert("Has añadido el juego al carrito");
+
+    };
     return (
         <>
             <div className='productinfo-container'>
@@ -26,7 +58,7 @@ function ProductoInfo() {
                         <div className='product-description'>{product_game.description}</div>
                         <div className='product-bottombar'>
                             <div className='product-developer'>{product_game.developer}</div>
-                            <button className='cart-button'>
+                            <button className='cart-button' onClick={() => AñadirJuegoAlCarrito(product_game.id)}>
                                 <div className='plus-sign'>+</div>
                                 <img src="src/Images/carritoverde.png" alt="carritoverde" />
                             </button>

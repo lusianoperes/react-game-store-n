@@ -1,6 +1,6 @@
 //import { useState } from 'react'
 import './NotFoundContent.css'
-
+import { Link } from 'react-router-dom'
 function NotFoundContent() {
     //const [count, setCount] = useState(0)
 
@@ -10,7 +10,7 @@ function NotFoundContent() {
                 <img src="src/Images/notfoundskull.png" alt="skullnotfound" />
                 <div className='error-msg'>UPS! ERROR 404</div>
                 <div className='nodisponible-msg'>Parece que la página a la que intentas acceder no se encuentra disponible o no existe</div>
-                <button className='return-button' onClick={() => {window.location.href = '/Inicio';}}>Volver al Inicio</button>
+                <Link to='/Inicio'><div className='return-button'>Volver al Inicio</div></Link>
             </div>
         </>
     )
