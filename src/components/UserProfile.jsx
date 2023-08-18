@@ -30,8 +30,8 @@ function UserProfile() {
             <div className='nombre'>{user.username}</div>
             {user.admin === false ? null : <div className='status'>Administrador</div>}
           </div>
-          <div className='imagen-perfil'><img src="src/Images/default_pfp.jpg" /></div>
-          <Link to='/Carrito'><div className='carrito'><img src="src/Images/carrito.png" /></div></Link>
+          <div className='imagen-perfil'><img src="/src/Images/default_pfp.jpg" /></div>
+          <Link to='/Carrito'><div className='carrito'><img src="/src/Images/carrito.png" /></div></Link>
         </>
       )
     }

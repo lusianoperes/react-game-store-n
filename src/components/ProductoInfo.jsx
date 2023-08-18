@@ -17,6 +17,8 @@ function ProductoInfo() {
     const other_products = gamesData.filter(game => game.id !== id);
     const related_products = other_products.sort(function (a, b) { return Math.random() - 0.5; }).slice(0, 4); //depende del resultado de mathrandom - 0.5 intercambia el orden de dos elementos entre sí
 
+    console.log("El src de la imagen es: " + product_game.image);
+
     const { UserId, setUserId } = useContext(MyContext);
     const { UsersData, setUsersData } = useContext(MyContext);
     const user = usersData.find((user) => user.userId === UserId);
@@ -61,7 +63,7 @@ function ProductoInfo() {
                             <div className='product-developer'>{product_game.developer}</div>
                             <button className='cart-button' onClick={() => AñadirJuegoAlCarrito(product_game.id)}>
                                 <div className='plus-sign'>+</div>
-                                <img src="src/Images/carritoverde.png" alt="carritoverde" />
+                                <img src="/src/Images/carritoverde.png" alt="carritoverde" />
                             </button>
                         </div>
                     </div>

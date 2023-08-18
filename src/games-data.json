@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "src/Images/Rocket_League.png",
+        "image": "/src/Images/Rocket_League.png",
         "name": "Rocket League",
         "description": "¡Descarga y compite en este rápido juego de carreras!",
         "developer": "FacePunch",
@@ -11,7 +11,7 @@
     },
     {
         "id": 2,
-        "image": "src/Images/the_quarry.png",
+        "image": "/src/Images/the_quarry.png",
         "name": "The Quarry",
         "description": "Perseguidos por lugares enigmáticos y misteriosos",
         "developer": "Bethesda",
@@ -21,7 +21,7 @@
     },
     {
         "id": 3,
-        "image": "src/Images/gotham_knights.jpeg",
+        "image": "/src/Images/gotham_knights.jpeg",
         "name": "Gotham Knights",
         "description": "Defiende Ciudad Gótica con los héroes del murciélago",
         "developer": "Warner Bros Games",
@@ -31,7 +31,7 @@
     },
     {
         "id": 4,
-        "image": "src/Images/fifa23.png",
+        "image": "/src/Images/fifa23.png",
         "name": "Fifa 23",
         "description": "Recrea épicos partidos y juega con tus futbolistas favoritos fulbo fulbo",
         "developer": "EA Sports",
@@ -41,7 +41,7 @@
     },
     {
         "id": 5,
-        "image": "src/Images/hitman_III.jpeg",
+        "image": "/src/Images/hitman_III.jpeg",
         "name": "HITMAN III",
         "description": "Encarna la piel del agente especial Hitman y resuelve misiones peligrosas",
         "developer": "Sony Games",
@@ -51,7 +51,7 @@
     },
     {
         "id": 6,
-        "image": "src/Images/the_witcher_3.jpeg",
+        "image": "/src/Images/the_witcher_3.jpeg",
         "name": "The Witcher 3",
         "description": "Sé un hechicero y recorre la mágica era medieval",
         "developer": "CD Projekt",
@@ -61,7 +61,7 @@
     },
     {
         "id": 7,
-        "image": "src/Images/gow_ragnarok.jpeg",
+        "image": "/src/Images/gow_ragnarok.jpeg",
         "name": "God of War: Ragnarok",
         "description": "Kratos ha vuelto y debe proteger a su hijo de los peligros de Asgard",
         "developer": "Santa Mónica",
@@ -71,7 +71,7 @@
     },
     {
         "id": 8,
-        "image": "src/Images/modern_warfare_2.png",
+        "image": "/src/Images/modern_warfare_2.png",
         "name": "Modern Warfare II",
         "description": "Modern Warfare II trae un juego de última generación para los fanáticos con un manejo de armas completamente nuevo, una nueva armería y otras innovaciones gráficas y de juego que disparan la franquicia a nuevas alturas.",
         "developer": "Activision",
@@ -81,7 +81,7 @@
     },
     {
         "id": 9,
-        "image": "src/Images/Resident-Evil-Village-Gold-Edition.png",
+        "image": "/src/Images/Resident-Evil-Village-Gold-Edition.png",
         "name": "Resident Evil Village",
         "description": "Resident Evil vuelve en su octavo capítulo con Ethan como protagonista para viajar a un tenebroso pueblo lleno de peligros",
         "developer": "Capcom",
@@ -91,7 +91,7 @@
     },
     {
         "id": 10,
-        "image": "src/Images/grim_fandango.jpeg",
+        "image": "/src/Images/grim_fandango.jpeg",
         "name": "Grim Fandango",
         "description": "Juega este juego es muy divertido y la verdad nose de que trata",
         "developer": "Fangango Corp",

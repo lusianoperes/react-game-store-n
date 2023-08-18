@@ -4,7 +4,7 @@
         "username": "Leonardo Duca",
         "password": "admin",
         "admin": true,
-        "profileImage": "src/Images/default_pfp",
+        "profileImage": "/src/Images/default_pfp",
         "on_cart_games_id": [
             {
                 "game_id": 3,
