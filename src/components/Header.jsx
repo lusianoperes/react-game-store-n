@@ -1,4 +1,5 @@
 //import { useState } from 'react'
+import '../reset.css'
 import './Header.css'
 import Logo from './Logo.jsx'
 import UserProfile from './UserProfile.jsx'

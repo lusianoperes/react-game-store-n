@@ -1,4 +1,5 @@
 //import { useState } from 'react'
+import '../reset.css'
 import './BalanceInfo.css'
 
 function BalanceInfo() {

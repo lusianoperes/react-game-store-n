@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom';
+import '../reset.css'
 import './ProductsFilter.css'
 import gamesData from '../games-data.json'
 
@@ -42,7 +43,7 @@ function ProductsFilter() {
                     <div className='products-text'>Productos</div>
                     <div className='filter-bar'>
                         <select className='order-button' value={orderBy} onChange={handleOrderChange}>
-                            <option value="" disabled selected>Ordenar</option>
+                            <option value="" disabled>Ordenar</option>
                             <option value="caros">Más caros</option>
                             <option value="baratos">Mas baratos</option>
                             <option value="nuevos">Mas nuevos</option>

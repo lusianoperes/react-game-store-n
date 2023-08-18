@@ -1,5 +1,6 @@
 //import { useState } from 'react'
 import { Link } from 'react-router-dom';
+import '../reset.css'
 import './TopSellers.css'
 import gamesData from '../games-data.json'
 import Producto from '../pages/Producto';

@@ -1,4 +1,5 @@
 //import { useState } from 'react'
+import '../reset.css'
 import './Logo.css'
 import { Link } from 'react-router-dom'
 function Logo() {

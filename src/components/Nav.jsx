@@ -1,4 +1,5 @@
 import { Link, useLocation } from 'react-router-dom'
+import '../reset.css'
 import './Nav.css'
 import usersData from '../users-data.json'
 import { MyContext } from '../Contexto'

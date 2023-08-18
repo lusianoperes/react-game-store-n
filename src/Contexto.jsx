@@ -1,5 +1,6 @@
 import React, { createContext, useState } from 'react';
 import usersData from './users-data.json'
+import './index.css'
 
 const MyContext = createContext();
 

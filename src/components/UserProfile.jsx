@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import '../reset.css'
 import './UserProfile.css'
 import usersData from '../users-data.json'
 import { MyContext } from '../Contexto'

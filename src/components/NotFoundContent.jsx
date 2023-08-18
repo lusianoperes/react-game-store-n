@@ -1,4 +1,5 @@
 //import { useState } from 'react'
+import '../reset.css'
 import './NotFoundContent.css'
 import { Link } from 'react-router-dom'
 function NotFoundContent() {

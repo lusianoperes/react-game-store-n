@@ -1,4 +1,5 @@
 //import { useState } from 'react'
+import '../reset.css'
 import './Slider.css'
 
 function Slider() {

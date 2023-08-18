@@ -8,6 +8,7 @@ import Carrito from './pages/Carrito'
 import NotFound from './pages/NotFound'
 import Producto from './pages/Producto'
 import { MyContextProvider } from './Contexto.jsx';
+import './index.css'
 
 function App() {
   //const [count, setCount] = useState(0)

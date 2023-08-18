@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import '../reset.css'
 import './CarritoInfo.css';
 import { MyContext } from '../Contexto';
 import { useContext } from 'react';
